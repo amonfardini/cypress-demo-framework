@@ -6,7 +6,7 @@ export default defineConfig({
   screenshotOnRunFailure: true,
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
-    reportDir: 'cypress/report',
+    reportDir: 'cypress',
     charts: true,
     reportPageTitle: 'Joan Media Demo Report',
     embeddedScreenshots: true,
